@@ -19,7 +19,7 @@ class UserShop extends StatelessWidget {
                 children: [
                   Icon(Icons.calendar_today),
                   SizedBox(
-                    width: 10,
+                    width: 20,
                   ),
                   Icon(Icons.menu),
                 ],

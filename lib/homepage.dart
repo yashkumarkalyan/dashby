@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:instaclonetute/pages/account.dart';
 import 'package:instaclonetute/pages/home.dart';
-import 'package:instaclonetute/pages/reels.dart';
+import 'package:instaclonetute/pages/chats.dart';
 import 'package:instaclonetute/pages/search.dart';
 import 'package:instaclonetute/pages/shop.dart';
 
@@ -25,7 +25,7 @@ class _HomePageState extends State<HomePage> {
   final List<Widget> _children = [
     UserHome(),
     UserSearch(),
-    UserReels(),
+    UserChats(),
     UserShop(),
     UserAccount(),
   ];
@@ -41,7 +41,7 @@ class _HomePageState extends State<HomePage> {
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'home'),
           BottomNavigationBarItem(icon: Icon(Icons.search), label: 'search'),
-          BottomNavigationBarItem(icon: Icon(Icons.video_call), label: 'reels'),
+          BottomNavigationBarItem(icon: Icon(Icons.chat), label: 'chats'),
           BottomNavigationBarItem(icon: Icon(Icons.shop), label: 'shop'),
           BottomNavigationBarItem(icon: Icon(Icons.person), label: 'account'),
         ],

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:instaclonetute/util/bubble_stories.dart';
 import '../util/account_tab1.dart';
 import '../util/account_tab2.dart';
 import '../util/account_tab3.dart';
@@ -148,27 +147,6 @@ class UserAccount extends StatelessWidget {
                     ),
                   ),
                 ],
-              ),
-            ),
-
-            // stories
-            Padding(
-              padding:
-                  const EdgeInsets.symmetric(horizontal: 0.0, vertical: 20),
-              child: Container(
-                height: 110,
-                child: ListView(
-                  scrollDirection: Axis.horizontal,
-                  children: [
-                    BubbleStories(text: 'story 1'),
-                    BubbleStories(text: 'story 2'),
-                    BubbleStories(text: 'story 3'),
-                    BubbleStories(text: 'story 4'),
-                    BubbleStories(text: 'story 5'),
-                    BubbleStories(text: 'story 6'),
-                    BubbleStories(text: 'story 7'),
-                  ],
-                ),
               ),
             ),
 

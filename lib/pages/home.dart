@@ -16,7 +16,7 @@ class UserHome extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
           backgroundColor: Colors.transparent,
-          elevation: 0,
+          elevation: 4,
           title: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
